@@ -1,0 +1,32 @@
+body {
+  text-align: center;
+  background-color:rgb(224, 217, 214);
+  
+  justify-content: center;
+  
+
+}
+
+ .box {
+  border: 1px solid black;
+  height: 100px;
+  width: 700px;
+  margin: auto;
+  padding-top: 50px;  
+border-radius: 10px;   }
+
+@media (max-width:724px){
+  .box{
+    width: 500px;
+    
+
+  }
+}
+
+@media (max-width:540px){
+  .box{
+    width: 300px;
+    
+
+  }
+}
